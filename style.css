@@ -22,7 +22,7 @@ body {
 
 .tt2 {
     font-family: 'Anonymous Pro', monospace; 
-    color: rgb(44, 45, 46);
+    color: rgb(176, 180, 184);
     font-weight: 10;
 }
 
@@ -59,7 +59,7 @@ body {
 .all{
     width: 1920px;
     height: 1080px;
-    filter: blur(4px)
+    filter: blur(1px)
 }
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
