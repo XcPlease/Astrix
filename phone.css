@@ -1,0 +1,34 @@
+body {
+    background-color: #323232
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fas {
+  color: white;
+  font-size: 150px;
+}
+.tt5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+.bb {
+    padding: 12px 32px 12px 32px;
+    border: 1px solid #ff5656;
+    border-radius: 60px;
+    width: 96px;
+    height: 3px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 4;
+}
+.bb:hover {
+    background-color: rgba(65, 62, 62, 0.452);
+    transition-duration: 0.4s;
+}
