@@ -1,0 +1,8 @@
+ db = {
+     "User": {
+           "username": "3mg",
+           "password": "1234",
+           "plan": "premium",
+           "role": "admin",
+     }
+ }
