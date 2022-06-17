@@ -2,7 +2,7 @@
 function getCity() {
 var cityName = document.getElementById("city-name").value;
 const API_KEY = 'd32517f75b0a4d57952170918221706'
-let api = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${cityName}&aqi=no`
+let api = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${cityName}&aqi=no`
 Handle(api);
 }
 
