@@ -37,7 +37,6 @@ async function validate() {
 async function rev() {
     const password = document.querySelector("#password");
     const type = password.getAttribute("type");
-    await sleep(700)
     password.setAttribute("type", "text");
 
 }
