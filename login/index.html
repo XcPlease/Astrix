@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="C:\Users\idan\Desktop\Blackppl\static\styles/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h2 class="sign">Sign Into <span class="kora">Example.</span></h2>
+            <form action="{{ url_for('login') }}" method="post">
+                <p class="info">email<span>*</span></p>
+                <input type="text" name="username" id="username" placeholder="example@example.com" autocomplete="off">
+                <p class="info">Password<span>*</span></p>
+                <input type="password" name="password" id="password" placeholder="password" autocomplete="off">
+                <button type="submit" name="submit_button_" class="sub_button" value="Register">Login</button>
+                <p class="for">Forgot password? <a href="http://">Click here.</a> </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
