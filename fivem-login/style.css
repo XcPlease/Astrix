@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=Fredoka&family=Gloria+Hallelujah&family=Grape+Nuts&family=Inter:wght@200&family=Montserrat:wght@600&family=Oxygen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@1,200&family=Rubik+Moonrocks&family=Work+Sans:wght@100;300&display=swap');    
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./assets/background.png');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.container {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.mark {
+text-decoration:underline;
+margin-right: 4;
+}
+
+form {
+    margin-left: 9rem;
+    margin-bottom: 9rem;
+}
+.main h2 {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 68px;
+}
+
+
+.main p {
+    font-family: 'poppins';
+    color: white;
+}
+
+input {
+    all: unset;
+    font-size: 22px;
+    border: none;
+    border-radius: 7px;
+    width: 40rem;
+
+    
+}
+
+input::placeholder {
+font-family: 'poppins';
+font-size: 22px;
+
+}
+
+
+button {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 29px;
+    margin-top: 3vh;
+    width: 19.5rem;
+    height: 3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #ff882f;
+    -webkit-box-shadow: 1px 2px 50px -6px #CEFF0F; 
+    box-shadow: 1px 2px 50px -6px #CEFF0F;
+    cursor: pointer;
+}
+
+button:hover {
+
+    width: 20rem;
+    height: 4rem;
+
+}
+
+
+.space {
+letter-spacing: 5px;
+}
+
+
+.icon {
+color: rgba(56, 21, 21, 0.603);
+margin: 10;
+background-color: rgba(0, 0, 0, 0.274);
+padding: 15;
+border-radius: 12px;
+width: 25px;
+}
+
+.add-icons {
+    padding: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    border-radius: 6px;
+    width: 30rem;
+}
+
+input[type=text] {
+    font-family: 'Work Sans';
+}
+
+
+.red-button {
+    background-color: rgb(255, 79, 79);
+    -webkit-box-shadow: 1px 2px 50px 6px #FF4F4F; 
+    box-shadow: 1px 2px 50px 6px #FF4F4F;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .main p {
+
+        background-color: rgba(0, 0, 0, 0.432);
+        border-radius: 6px;
+        width: 90px;
+    }
+
+    body {
+        background-image: url('./assets/phone-all.png');
+    }
+
+    .main h2 {
+
+        font-size: 18px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    
+    form p {
+        width: 30rem;
+
+    }
+
+    form {
+        text-align: center;
+        
+        margin: 0;
+    }
+
+    .button-holder {
+        display: grid;
+        place-content: center;
+    }
+
+    .inputs {
+        margin: 0;
+        max-width: 40rem;
+        text-align: center;
+
+    }
+
+    .add-icons {
+        max-width: 22rem;
+        margin: ;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    input {
+        max-width: 18rem;
+        text-align-last: left;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+  }
