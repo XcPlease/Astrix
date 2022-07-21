@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=Fredoka&family=Gloria+Hallelujah&family=Grape+Nuts&family=Inter:wght@200&family=Montserrat:wght@600&family=Oxygen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@1,200&family=Rubik+Moonrocks&family=Work+Sans:wght@100;300&display=swap');    
+
+body {
+background-color: #ffffff;    
+background-position: center;
+background-size: cover;
+}
+
+
+h2, p {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.396);
+    font-size: 10px;
+    margin-top: 1vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+button {
+    margin: 5;
+}
+
+
+span {
+    color: rgba(255, 255, 255, 0);
+}
+
+
+
+button {
+    border: none;
+    border-radius: 60%;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    border: 2px solid orange;
+    background-color:rgba(0, 0, 0, 0.326);
+}
+
+
+button:hover {
+
+    background-color:rgba(204, 255, 0, 0.549);
+}
+
+
+
+.icon {
+    font-size: 22px;
+}
+
+.image {
+    width: 22px;
+}
+
+button:focus {
+    background-color:rgba(166, 255, 0, 0.549);
+}
+
+
+.design-info {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.262);
+    border-radius: 2px 2px 12px 12px;
+    width: 20rem;
+    height: 3.2rem;
+    padding: 1;
+    margin-bottom: 15;
+    
+
+}
+
+.near-text {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    max-width: 40rem;
+
+}
+
+#eyebrowb {
+    margin-right: 1vh;
+}
+
+.section {
+    color: white;
+    background-color: #12121273;
+    padding: 4;
+    border-radius: 6%;
+    width: 40%;
+}
+
