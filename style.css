@@ -1,7 +1,13 @@
+html { 
+overflow: hidden;
+position: fixed;
+}
+
+
 body {
     background: url('./assets/background.png');
     overflow: hidden;
-    background-position: center;
+    position: fixed;
 }
 
 
